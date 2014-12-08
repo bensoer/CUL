@@ -10,7 +10,10 @@
 
 using namespace std;
 
-
+/**
+* ArgParser makes retrieving commandline arguments easy. Pass the appropriate method the tag before the item you would
+* like to retrieve from the command line args, and pass the argv array along with argc.
+*/
 class ArgParcer{
 
 public:
